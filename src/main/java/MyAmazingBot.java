@@ -60,7 +60,7 @@ public class MyAmazingBot extends TelegramLongPollingBot {
 
                 try {
                     execute(message); // Sending our message object to user
-                    execute(location);
+                    //execute(location);
                 } catch (TelegramApiException e) {
                     e.printStackTrace();
                 }
